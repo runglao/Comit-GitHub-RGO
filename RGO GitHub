@@ -1,0 +1,317 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#0f0c29,#302b63,#24243e);
+    background: url(https://images.wallpaperscraft.ru/image/single/figury_oskolki_grani_1191161_2560x1080.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+    font-family: cursive;
+   
+} 
+
+.header_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Social_media_Logo {
+   display: flex;
+   align-content: center;
+   gap: 10px;
+}
+
+.myname h1{
+    color: #ff9752;
+    font-size: 90px;
+    text-align: center;
+}
+
+.AddRGO{
+    text-decoration: none;
+    color: rgb(236, 67, 16);
+}
+
+.Token_RGO a{
+    text-decoration: none;
+}
+
+.Airdrop_info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    padding: 20px;
+    height: 50%;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+    font-family:monospace;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.Airdrop_info mark{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.Airdrop_container{
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    color: rgb(6, 245, 173);
+}
+
+.Airdrop_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.DEX_info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+    padding: 20px;
+    height: 50%;
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 20px;
+}
+  
+
+.DEX_info mark{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.DEX_container{
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    color: rgb(6, 245, 173);
+}
+
+.Dex_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+.Wallet_info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    padding: 20px;
+    height: 50%;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+    color: rgb(255, 253, 253);
+    font-family:monospace;
+    font-size: 20px;
+}
+
+.Wallet_info  mark{
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.Wallet_info p{
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+.Wallet_container{
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    color: rgb(6, 245, 173);
+}
+
+.Wallet_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+
+
+.Exchanges_info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    padding: 20px;
+    height: 50%;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+    color: rgb(255, 253, 253);
+    font-family:monospace;
+    font-size: 20px;
+}
+
+.Exchanges_info mark{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.Exchanges_container{
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: aqua;
+    color: rgb(6, 245, 173);
+}
+
+.Exchanges_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+
+
+
+
+
+.element{
+    align-content: center;
+    width: 156px;
+    height: 156px;
+    margin: 20px;
+    border-radius: 150px;
+    border: 4px solid rgb(247, 95, 8);
+    transition: transform 0.5s ease;
+    
+    
+}
+
+.element:hover{
+    /* border: 5px solid rgb(7, 214, 24); */
+    transform: scale(1.05);
+    /* box-shadow: 1px 3px  5px; */
+}
+
+
+
+.el{
+    align-content: center;
+    width: 146px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(18, 233, 240);
+    transition: transform 0.5s ease;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+}
+
+.el:hover{
+    border: 2px solid rgb(247, 64, 8);
+    transform: scale(1.1);
+    
+}
+
+.image ,img{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.click_button{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button{
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #f17019;
+}
+
+
+media (max-width: 1400px){
+    .Airdrop_block{
+        justify-content: space-around;
+    }
+    .Dex_block{
+        justify-content: space-around;
+    }
+    .Wallet_block{
+        justify-content: space-around;
+    }
+    .Exchanges_block{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 991px){
+    .header_info{
+        justify-content: space-around;
+    }
+    .Social_media_Logo{
+        margin-top: 10px;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 770px){
+    .myname h1{
+        font-size: 60px;
+    }
+    .header_info{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 417px){
+    .header_info{
+        justify-content: space-around;
+    }
+    .element{
+        margin: 10px;
+    }
+    .el{
+        margin: 10px;
+    }
+    .Airdrop_info{
+        margin:5px;
+        font-size: 14px;
+    }
+    .DEX_info {
+        font-size: 14px;
+    }
+    .Wallet_info {
+        font-size: 14px;
+    }
+    .Exchanges_info {
+        font-size: 14px;
+    }
+}
+    
